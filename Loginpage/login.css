@@ -1,0 +1,36 @@
+#lalit{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin:auto;
+    height:350px;
+    width: 40%;
+    margin-top: 20px;;
+  }
+  #pawar{
+   
+   font-size: 30px;;
+   margin-left: 75px;
+    height:350px;
+    width: 40%;
+  }
+  ::placeholder{
+    font-size:15px;
+  }
+ h3{
+    padding:10px;
+    text-align:center;
+    font-size:40px;
+  }
+  #submit{
+    padding:10px;
+    margin:auto;
+  }
+   #container{
+        display:flex;
+        justify-content: space-around;
+        background-color: grey;
+  }
+  #container>div>a{
+        color:white;
+        text-decoration: none;
+        font-size:28px;
+  }
