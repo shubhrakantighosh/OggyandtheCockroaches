@@ -1,0 +1,35 @@
+#snehal{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin:auto;
+    height:550px;
+    width: 40%;
+  }
+  #jadhav{
+   
+   font-size: 30px;;
+   margin-left: 75px;
+    height:550px;
+    width: 40%;
+  }
+  ::placeholder{
+    font-size:25px;
+  }
+ h3{
+    padding:10px;
+    text-align:center;
+    font-size:40px;
+  }
+  #submit{
+    padding:10px;
+    margin:auto;
+  }
+  #container{
+        display:flex;
+        justify-content: space-around;
+        background-color: grey;
+        font-size:28px;
+  }
+  #container>div>a{
+        color:white;
+        text-decoration: none;
+  }
