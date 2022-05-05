@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/navbar/navbar.css"/>
     <title>Document</title>
     <style>
       #container{
@@ -13,17 +14,6 @@
         margin-top: 0px;
         width: 87%;
         margin: auto;
-      }
-      #head{
-        background-color: rgb(17, 39, 38);
-         border-radius: 10px;
-         display: flex;  
-      }
-      #companyname{
-        width: 10%;
-        height: auto;
-        color:white;
-        padding: 10px;
       }
       #space{
         width: 60%;
@@ -41,7 +31,6 @@
       }
       #container>div{box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         border-radius: 10px;
-        /* background-color: rgb(217, 182, 242); */
         padding:5px 0px 5px 0px ;
         margin: auto;
       }
@@ -64,17 +53,14 @@
     </style>
 </head>
 <body>
-  <div id="head">
-   <div id="companyname">
-     <p>Reebok</p>
-   </div>
-   <div id="space"></div>
-   <div id="navbar">
-    <div><a href="mens.html">Men</a></div>
-    <div><a href="womens.html">Women</a></div>
-    <div><a href="login.html">Login</a></div>
-    <div><a href="signup1.html">Signup</a></div>
-   </div>
+  <div id="nav">
+    <div id="comp">Reebok</div>
+    <div id="links-side">
+      <div id="mens"><a href="/men&women/mens.html">Mens</a></div>
+      <div id="womens"><a href="/men&women/womens.html">Womens</a></div>
+      <div id="login"><a href="/Loginpage/login.html">Login</a></div>
+      <div id="signup"><a href="/signup.html">Signup</a></div>
+    </div>
   </div>
     <div id="container"></div>
 </body>

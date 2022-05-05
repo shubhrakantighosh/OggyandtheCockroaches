@@ -1,13 +1,11 @@
 #nav{
     display: flex;
     border-radius: 10px;
-    /* border: 1px solid red; */
     justify-content: space-between;
     background-color: black;
 }
 
 #links-side{
-    /* border: 1px solid green; */
     width: 30%;
     display: flex;
     justify-content: space-evenly;
