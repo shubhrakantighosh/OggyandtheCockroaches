@@ -1,0 +1,44 @@
+#nav{
+    display: flex;
+    border-radius: 10px;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    background-color: black;
+}
+
+#links-side{
+    /* border: 1px solid green; */
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#comp{
+    margin-top: 15px ;
+    color: white;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+#comp:hover{
+    cursor: pointer;
+}
+#links-side>div{
+    margin-top: 15px;
+}
+
+#links-side>div>a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+#links-side>div{
+    font-size:30px ;
+    color: white;
+}
+
+#links-side>div:hover{
+    cursor: pointer;
+}
